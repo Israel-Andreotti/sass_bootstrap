@@ -13,4 +13,9 @@
     transform: translate(-50%, -50%);
 }
 
+//Transições de hover 
+@mixin transitionHover {
+    transition: all 0.3s ease-in-out;
+}
+
 
